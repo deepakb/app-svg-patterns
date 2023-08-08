@@ -19,7 +19,9 @@ export default function Home() {
   return (
     <div
       className="flex-1 bg-stripes-slate relative p-4 px-20 leading-6"
-      style={{ minHeight: "100vh" }}
+      style={{
+        minHeight: "100vh",
+      }}
       ref={containerRef}
     >
       <AutoSizer>

@@ -7,9 +7,7 @@ export default function useAppTheme() {
   const isClientLoaded = useLoaded();
   const currentTheme = theme === "system" ? systemTheme : theme;
   const isDarkTheme = currentTheme && currentTheme === "dark";
-  const isLightTheme = currentTheme && currentTheme === "dark";
-
-  console.log({ systemTheme, theme, setTheme });
+  const isLightTheme = currentTheme && currentTheme === "light";
 
   return {
     isDarkTheme: isClientLoaded && isDarkTheme,

@@ -1,6 +1,7 @@
 import ThemeLayout from "@/components/ThemeLayout";
 
 import "./globals.css";
+import { ContextProvider } from "@/context/Context";
 
 export const metadata = {
   title: "svg patterns",
@@ -11,7 +12,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body className="font-nunito bg-background relative h-screen w-screen overflow-hidden">
-        <ThemeLayout>{children}</ThemeLayout>
+        <ContextProvider>
+          <ThemeLayout>{children}</ThemeLayout>
+        </ContextProvider>
       </body>
     </html>
   );

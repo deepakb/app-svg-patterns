@@ -1,0 +1,27 @@
+Agency
+- department
+- name
+- address
+- phone
+- email address
+
+Company -
+Customers - name, mob no, address, ref name/address, second ref name/address, father name, pincode, ptp date
+Excel format data uploading and parsing
+
+Users/Employee
+- name
+- address
+- Adhar and Pan card
+- Bank details
+- phone
+- email address
+- joining date
+- salary (dynamic)
+- designation
+- photo
+
+
+
+product name - manager name and manager id
+- bucket
